@@ -1,9 +1,17 @@
 package prjava43tortosac20;
+<<<<<<< HEAD
 import java.awt.*;        // using AWT containers and components
 import java.awt.event.*;  // using AWT events and listener interfaces
 import java.sql.*;
 import java.net.*;
 
+=======
+import java.awt.*; // using AWT containers and components
+import java.awt.event.*; // using AWT events and listener interfaces
+import java.text.*;
+import java.io.*;
+// An AWT GUI program inherits the top-level container java.awt.Frame
+>>>>>>> branca00tortosac
 public class prjava43tortosa20 extends Frame
 implements ActionListener, WindowListener {
 // This class acts as listener for ActionEvent and WindowEvent
@@ -27,8 +35,8 @@ btnCount.addActionListener(this);
 addWindowListener(this);
 // "this" Frame fires WindowEvent its registered WindowEvent listener
 // "this" Frame adds "this" object as a WindowEvent listener
-setTitle("prjava43tortosa20"); // "this" Frame sets title
-setSize(250, 100); // "this" Frame sets initial size
+setTitle("nova finestra prjava43tortosa20"); // "this" Frame sets title
+setSize(450, 100); // "this" Frame sets initial size
 setVisible(true); // "this" Frame shows
 }
 /** The entry main() method */
